@@ -1,0 +1,15 @@
+3 7
+abcdefgh
+--------
+abgfedch
+--------
+1 7
+reviver
+--------
+reviver
+--------
+4 13
+merrychristmas
+--------
+meramtsirhcyrs
+--------

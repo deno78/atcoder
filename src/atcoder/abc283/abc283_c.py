@@ -1,0 +1,1 @@
+s=input();print(s.count("00")+len(s.replace("00","")))

@@ -1,0 +1,26 @@
+約数を列挙するプログラム
+
+以下のコード片をコピペしておくことで汎用的に対応できる。
+過去数回出題されているので、覚えておくとコスパが高い。
+
+def make_divisors(n):
+    lower_divisors , upper_divisors = [], []
+    i = 1
+    while i*i <= n:
+        if n % i == 0:
+            lower_divisors.append(i)
+            if i != n // i:
+                upper_divisors.append(n//i)
+        i += 1
+    return lower_divisors + upper_divisors[::-1]
+
+
+
+約数を貼るだけ
+https://atcoder.jp/contests/abc180/tasks/abc180_c
+
+(1+1+1+1...)*g となるような数字を求めればよい。
+https://atcoder.jp/contests/abc112/tasks/abc112_d
+
+約数のセットを作って、エラトステネスの篩の要領で非素数を列挙していく。
+https://atcoder.jp/contests/abc215/tasks/abc215_d

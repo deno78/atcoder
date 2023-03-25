@@ -1,0 +1,15 @@
+chokudai
+3 5
+--------
+chukodai
+--------
+aa
+1 2
+--------
+aa
+--------
+aaaabbbb
+1 8
+--------
+baaabbba
+--------

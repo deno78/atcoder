@@ -1,0 +1,21 @@
+alist=[128,16,128,16,2,256,32,4,64,8]
+
+
+
+
+
+
+
+# 元リストを重複排除してソートしたリストを作る
+aset=list(set(alist))
+aset.sort()
+
+# ソート済み＆重複排除したリストに順位を付けて値＆順位の連想配列に格納
+adic={}
+for i in range(len(aset)):
+    key=aset[i]
+    adic[key]=i
+
+# 値＆順位の連想配列を調べながら表示していく
+for a in alist:
+    print("[{}] {}".format(adic[a],a))

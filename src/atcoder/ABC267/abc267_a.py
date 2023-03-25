@@ -1,0 +1,1 @@
+print(5-list("ouehr").index(input()[1]))

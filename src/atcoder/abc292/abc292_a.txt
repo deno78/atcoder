@@ -1,0 +1,12 @@
+abc
+--------
+ABC
+--------
+a
+--------
+A
+--------
+abcdefghjiklnmoqprstvuwxyz
+--------
+ABCDEFGHJIKLNMOQPRSTVUWXYZ
+--------

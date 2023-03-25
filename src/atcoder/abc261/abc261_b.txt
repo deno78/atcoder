@@ -1,0 +1,14 @@
+4
+-WWW
+L-DD
+LD-W
+LDW-
+--------
+incorrect
+--------
+2
+-D
+D-
+--------
+correct
+--------
