@@ -7,12 +7,21 @@ s = input()
 if s[0]!="A":
     print("WA")
     exit()
-elif s[2:-2].count("C")!=1:
+elif s[2:-1].count("C")!=1:
     print("WA")
     exit()
 else:
-    for c in s:
-        if c in "BDEFGHIJKLMNOPQRSTUVWXYZ":
+    c_idx=s.index("C")
+    for i in range(1,c_idx):
+        c = s[i]
+#        print("[{}] {}".format(i,c))
+        if c in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+            print("WA")
+            exit()
+    for i in range(c_idx+1,len(s)):
+        c = s[i]
+#        print("[{}] {}".format(i,c))
+        if c in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
             print("WA")
             exit()
 
