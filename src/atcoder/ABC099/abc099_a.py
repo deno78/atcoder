@@ -1,0 +1,1 @@
+print("AB{}".format(chr(ord("C")+int(input())//1000)))
