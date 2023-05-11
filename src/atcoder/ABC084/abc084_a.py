@@ -1,0 +1,1 @@
+print(eval("48-"+input()))
