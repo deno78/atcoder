@@ -1,0 +1,1 @@
+print("YNeos"[eval(input()+"%500>"+input())::2])
