@@ -1,0 +1,20 @@
+5
+alice 31
+bob 41
+carol 5
+dave 92
+ellen 65
+--------
+carol
+dave
+ellen
+alice
+bob
+--------
+2
+takahashi 1000000000
+aoki 999999999
+--------
+aoki
+takahashi
+--------
