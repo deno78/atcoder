@@ -1,0 +1,12 @@
+atcoder
+--------
+tcdr
+--------
+xyz
+--------
+xyz
+--------
+aaaabbbbcccc
+--------
+bbbbcccc
+--------
