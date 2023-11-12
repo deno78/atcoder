@@ -1,0 +1,12 @@
+BAABCBCCABCAC
+--------
+BCAC
+--------
+ABCABC
+--------
+
+--------
+AAABCABCABCAABCABCBBBAABCBCCCAAABCBCBCC
+--------
+AAABBBCCC
+--------
