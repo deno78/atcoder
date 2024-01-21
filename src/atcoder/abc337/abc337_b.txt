@@ -1,0 +1,16 @@
+AAABBBCCCCCCC
+--------
+Yes
+--------
+ACABABCBC
+--------
+No
+--------
+A
+--------
+Yes
+--------
+ABBBBBBBBBBBBBCCCCCC
+--------
+Yes
+--------
