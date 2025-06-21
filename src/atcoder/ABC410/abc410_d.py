@@ -1,3 +1,4 @@
+import collections
 n,m=map(int,input().split())
 abw=[]
 abdict={}
@@ -20,11 +21,11 @@ for i in range(m):
     cmap[b][a]=i
 
 clist=[0]*m
-wk=[]
+wk = collections.deque()
 wk.append([0,0,clist])
 aset=set([])
 while len(wk)>0:
-    w=wk.pop(0)
+    w=wk.popleft()
     p=w[0]
     c=w[1]
     s=w[2]
